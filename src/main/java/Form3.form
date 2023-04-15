@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Form3">
+  <grid id="27dc6" binding="Form3" layout-manager="GridLayoutManager" row-count="24" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="902" height="759"/>
+    </constraints>
+    <properties>
+      <background color="-856081"/>
+      <font/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a413d" class="javax.swing.JLabel" binding="full_name">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="558a3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Hello,"/>
+        </properties>
+      </component>
+      <component id="ccc05" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Order"/>
+        </properties>
+      </component>
+      <component id="ed9d7" class="javax.swing.JLabel" binding="order">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="54921" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="26aeb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="ЦОН #2 Есильского района"/>
+        </properties>
+      </component>
+      <component id="16f8a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Выдача справки о наличии либо отсутствии судимости"/>
+        </properties>
+      </component>
+      <component id="cba4c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Department"/>
+        </properties>
+      </component>
+      <component id="48866" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Personal information"/>
+        </properties>
+      </component>
+      <component id="75ff9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="IIN"/>
+        </properties>
+      </component>
+      <component id="7105f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="First Name"/>
+        </properties>
+      </component>
+      <component id="608da" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Last Name"/>
+        </properties>
+      </component>
+      <component id="f654f" class="javax.swing.JLabel" binding="last_name">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="14815" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Phone Number"/>
+        </properties>
+      </component>
+      <component id="df56e" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+      </component>
+      <component id="6edb4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Delivery information"/>
+        </properties>
+      </component>
+      <component id="6b10b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="District"/>
+        </properties>
+      </component>
+      <component id="64e2b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="City"/>
+        </properties>
+      </component>
+      <component id="810ac" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Street"/>
+        </properties>
+      </component>
+      <component id="c7225" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="House"/>
+        </properties>
+      </component>
+      <component id="88460" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Apartment"/>
+        </properties>
+      </component>
+      <component id="5543" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Entrance"/>
+        </properties>
+      </component>
+      <component id="6d0b5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Floor"/>
+        </properties>
+      </component>
+      <component id="d8051" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Building Body"/>
+        </properties>
+      </component>
+      <component id="110d7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="19" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Name of Apartment Complex"/>
+        </properties>
+      </component>
+      <component id="5295" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="20" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Other Information"/>
+        </properties>
+      </component>
+      <component id="dfd81" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+      </component>
+      <component id="df9a3" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+      </component>
+      <component id="d8647" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+      </component>
+      <component id="b20cf" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+      </component>
+      <component id="9b585" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+      </component>
+      <component id="bd6f" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+      </component>
+      <component id="1e87b" class="javax.swing.JTextField" binding="textField8" default-binding="true">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+      </component>
+      <component id="449dd" class="javax.swing.JTextField" binding="textField9" default-binding="true">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+      </component>
+      <component id="6f520" class="javax.swing.JTextField" binding="textField10" default-binding="true">
+        <constraints>
+          <grid row="19" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+        </properties>
+      </component>
+      <component id="30daa" class="javax.swing.JTextField" binding="zTextField" default-binding="true">
+        <constraints>
+          <grid row="20" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ed54" class="javax.swing.JButton" binding="OKButton" default-binding="true">
+        <constraints>
+          <grid row="23" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="OK"/>
+        </properties>
+      </component>
+      <component id="80d71" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+        <constraints>
+          <grid row="23" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <component id="b71a5" class="javax.swing.JLabel" binding="first_name">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="dda53" class="javax.swing.JLabel" binding="iin1">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3d01f" class="javax.swing.JRadioButton" binding="яПринимаюУсловияПубличногоRadioButton" default-binding="true">
+        <constraints>
+          <grid row="21" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Я принимаю условия публичного договора-оферты"/>
+        </properties>
+      </component>
+      <component id="e10e8" class="javax.swing.JRadioButton" binding="яОзнакомленИСогласенRadioButton" default-binding="true">
+        <constraints>
+          <grid row="22" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Я ознакомлен и согласен с условиями политики конфиденциальности и персональных данных"/>
+        </properties>
+      </component>
+      <component id="d2092" class="javax.swing.JButton" binding="договорButton" default-binding="true">
+        <constraints>
+          <grid row="21" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Договор"/>
+        </properties>
+      </component>
+      <component id="1ad2e" class="javax.swing.JButton" binding="политикаButton" default-binding="true">
+        <constraints>
+          <grid row="22" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14"/>
+          <text value="Политика"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
